@@ -37,10 +37,10 @@
                         <groupId>ch.qos.logback</groupId>
                         <artifactId>logback-classic</artifactId>
                     </exclusion>
-<!--                    <exclusion>
+                    <exclusion>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-starter-tomcat</artifactId>
-                    </exclusion>-->
+                    </exclusion>
                 </exclusions>
                 <!-- end wildfly deploy -->
             </dependency>
