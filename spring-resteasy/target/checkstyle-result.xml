@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="D:\Invoke\logs\spring-resteasy\src\main\java\org\jboss\as\quickstarts\resteasyspring\GreetingBean.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\main\java\org\jboss\as\quickstarts\resteasyspring\HelloSpringResource.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\main\java\org\jboss\as\quickstarts\resteasyspring\JaxRsActivator.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\main\java\org\jboss\as\quickstarts\resteasyspring\LocatingResource.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\java\org\jboss\as\quickstarts\resteasyspring\test\BasicRuntimeIT.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\java\org\jboss\as\quickstarts\resteasyspring\test\ResteasySpringIT.java">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\resources\applicationContext.xml">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\resources\arquillian.xml">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\resources\jboss-deployment-structure.xml">
+</file>
+<file name="D:\Invoke\logs\spring-resteasy\src\test\resources\web.xml">
+</file>
+</checkstyle>

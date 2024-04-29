@@ -1,0 +1,13 @@
+#Mon Apr 29 09:49:47 SGT 2024
+configuration*?=5D29A24411DAFBCD4FF42578A12758077ABB4F40
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\resources\\jboss-deployment-structure.xml=1714298871509
+D\:\\Invoke\\logs\\spring-resteasy\\src\\main\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\JaxRsActivator.java=1714298871496
+D\:\\Invoke\\logs\\spring-resteasy\\src\\main\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\LocatingResource.java=1714298871497
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\resources\\arquillian.xml=1714298871508
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E
+D\:\\Invoke\\logs\\spring-resteasy\\src\\main\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\GreetingBean.java=1714298871494
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\test\\ResteasySpringIT.java=1714298871506
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\resources\\web.xml=1714298871510
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\test\\BasicRuntimeIT.java=1714298871505
+D\:\\Invoke\\logs\\spring-resteasy\\src\\test\\resources\\applicationContext.xml=1714298871507
+D\:\\Invoke\\logs\\spring-resteasy\\src\\main\\java\\org\\jboss\\as\\quickstarts\\resteasyspring\\HelloSpringResource.java=1714298871495
