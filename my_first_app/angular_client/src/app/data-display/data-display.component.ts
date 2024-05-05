@@ -14,7 +14,7 @@ export class DataDisplayComponent implements OnInit{
   httpClient = inject(HttpClient);
   data : any= [];
   
-  apiUrl = 'http://jsonplaceholder.typicode.com/posts';
+  apiUrl = 'mobile/queryList';
 
    ngOnInit(): void {
     this.httpClient.get(this.apiUrl).subscribe((data: any) => {
