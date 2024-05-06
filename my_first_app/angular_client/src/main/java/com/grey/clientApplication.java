@@ -3,9 +3,10 @@ package com.grey;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class clientApplication{
+public class clientApplication extends SpringBootServletInitializer {
 
   public static void main(String[] args) {
     SpringApplication.run(clientApplication.class,args);
