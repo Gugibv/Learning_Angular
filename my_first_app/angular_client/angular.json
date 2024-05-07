@@ -27,7 +27,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "angular-client"
           },
           "configurations": {
             "production": {
@@ -55,7 +56,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {"proxyConfig": "src/proxy.conf.json"},
+          "options": {
+            "proxyConfig": "src/proxy.conf.json",
+          },
           "configurations": {
             "production": {
               "buildTarget": "angular_client:build:production"
