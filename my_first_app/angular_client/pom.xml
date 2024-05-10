@@ -12,7 +12,6 @@
     <artifactId>angular_client</artifactId>
     <packaging>war</packaging>
 
-
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -20,23 +19,6 @@
     </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-      <version>3.2.4</version>
-      <!-- for wildfly deployment -->
-      <exclusions>
-        <exclusion>
-          <groupId>ch.qos.logback</groupId>
-          <artifactId>logback-classic</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-        </exclusion>
-      </exclusions>
-      <!-- end wildfly deploy -->
-    </dependency>
 
     <!--wildfly deploy -->
     <dependency>
@@ -46,15 +28,6 @@
       <scope>provided</scope>
     </dependency>
     <!-- end wildfly deploy -->
-    <!-- Local start need tomcat-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-tomcat</artifactId>
-      <version>3.2.4</version>
-      <scope>provided</scope>
-    </dependency>
-    <!-- Local start need tomcat end-->
-
 
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
