@@ -1,6 +1,6 @@
 {
     "/mobile/*": {
-      "target": "http://127.0.0.1:8080/angular_server",
+      "target": "http://127.0.0.1:8084/",
       "changeOrigin": true,
       "secure": false,
       "logLevel": "debug"

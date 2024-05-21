@@ -15,7 +15,7 @@ public class ClientStartUp  implements ServletContainerInitializer {
     ServletRegistration reverseProxy = ctx.getServletRegistration("reverseProxy");
     String getenv = System.getenv("gcc_apim");
 
-    getenv = "http://127.0.0.1:8080/angular_server/mobile/";
+    getenv = "http://127.0.0.1:8084/angular_server/mobile/";
 
     reverseProxy.setInitParameter("targetUri", getenv);
     reverseProxy.setInitParameter(ProxyServlet.P_LOG, "true");
