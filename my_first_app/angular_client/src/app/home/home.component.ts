@@ -12,14 +12,13 @@ import { Product ,Products } from '../../type';
 export class HomeComponent {
   // it can be used for initialiaztion logc, but it is generally recommended to move all initalization logic to lifecycle hooks like ngOnInit  
 
-  constructor(
-     private productsService: ProductsService
-  ){}
+  constructor(  private productsService: ProductsService){}
 
- 
+    
+  apiUrl = 'product/getProductList';
 
   ngOnInit(){
-     this.productsService.getProducts('', { page: 0, perPage: 5 }).subscribe((products: Products) => {
+     this.productsService.getProducts(this.apiUrl, { page: 1, perPage: 5 }).subscribe((products: Products) => {
       console.log(products);
     });
   }
