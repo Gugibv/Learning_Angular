@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 /**
  *   extends SpringBootServletInitializer
  *
- *   if not extends this class will get 404 error
+ *   if not extends this class will get 404 error when deploy to jboss
  */
 @SpringBootApplication
 public class BasicApplication  extends SpringBootServletInitializer {
